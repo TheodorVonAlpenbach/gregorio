@@ -53,7 +53,8 @@ distclean-local:
 
 EXTRA_DIST = $(SRCFILES) $(NABCSRCFILES) \
 	     GregorioRef.pdf \
-	     GregorioNabcRef.pdf
+	     GregorioNabcRef.pdf \
+		 README.md
 
 maintainer-clean-local:
 	rm -rf GregorioRef*.pdf
